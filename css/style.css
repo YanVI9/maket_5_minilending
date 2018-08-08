@@ -27,6 +27,7 @@ body {
 .section__caption {
     color: #445162;
     font-size: 30px;
+    font-weight: 500;
 }
 
 .section__caption_type-center {
@@ -108,4 +109,41 @@ body {
     color: #333333;
     font-size: 16px;
     margin: 0;
+}
+
+/* Scrinshots block */
+
+.scrinshots-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.scrinshots-block__item {
+    display: flex;
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.scrinshots-block__image {
+    margin-right: 20px;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-block__header {
+    margin: 0;
+    font-size: 24px;
+    color: #445162;
+    font-weight: 500;
+}
+
+.text-block__text {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
 }
