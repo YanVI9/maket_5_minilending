@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---блок Section--- */
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0; 
+}
+
+.section_darkblue {
+    background-color: #445162;
+    color: white;
+}
+
+.section_white {
+    background-color: white;
+}
+
+.section_grey {
+    background-color: #f5f5f5;
+}
+
+.section__caption {
+    color: #445162;
+    font-size: 30px;
+}
+
+/* ---block-cover---  */
+
+.block-cover {
+    width: 1200px; /*необходим для выравнивания всех секций по центру и управления адаптивностью */
+}
+
+/* ---block-header--- */
+
+.block-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block-header__firstPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block-header__product-name {
+    font-size: 47px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.block-header__link {
+    display: block;
+    width: 469px;
+    height: 214px;
+    background-color: white;
+}
+
+.prop-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.prop-list__item::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 4px;
+}
