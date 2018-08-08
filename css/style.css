@@ -84,3 +84,28 @@ body {
     display: inline-block;
     margin-right: 4px;
 }
+
+/* plusProduckt-block */
+
+.plusProduckt-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plusProduct-block__item {
+    width: 50%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.plusProduct-block__plus {
+    color: #445162;
+    margin-right: 10px;
+    font-size: 32px;
+}
+
+.plusProduct-block__text {
+    color: #333333;
+    font-size: 16px;
+    margin: 0;
+}
