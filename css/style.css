@@ -29,6 +29,14 @@ body {
     font-size: 30px;
 }
 
+.section__caption_type-center {
+    text-align: center;
+}
+
+.section__caption_type-left {
+    text-align: left;
+}
+
 /* ---block-cover---  */
 
 .block-cover {
@@ -39,7 +47,6 @@ body {
 
 .block-header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -47,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 100px;
 }
 
 .block-header__product-name {
