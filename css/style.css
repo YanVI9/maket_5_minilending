@@ -1,5 +1,9 @@
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* ---блок Section--- */
@@ -42,6 +46,7 @@ body {
 
 .block-cover {
     width: 1200px; /*необходим для выравнивания всех секций по центру и управления адаптивностью */
+    margin: 0 40px;
 }
 
 /* ---block-header--- */
@@ -91,10 +96,11 @@ body {
 .plusProduckt-block {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .plusProduct-block__item {
-    width: 50%;
+    width: 48%;
     display: flex;
     margin-bottom: 30px;
 }
@@ -210,7 +216,7 @@ body {
     margin: 14px 0 0 0;
 }
 
-.box_positionBlock-end {
+.box_positionBlock {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -221,13 +227,14 @@ body {
 .tarif {
     background-color: #445162;
     border: 2px solid #445162;
-    width: 300px;
+    flex-basis: 300px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+    margin: 0 5px;
 }
 
 .tarif__name {
@@ -274,6 +281,7 @@ body {
 .contakts-box {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 
 .address, .form {
@@ -281,7 +289,7 @@ body {
 }
 
 .form {
-    width: 500px;
+    flex-basis: 500px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -343,4 +351,46 @@ body {
     font-size: 12px;
     text-align: center;
     color: #445162;
+}
+
+@media screen and (max-width: 1070px)
+{
+    .block-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-header__firstPart {
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 903px)
+{
+    .address {
+        margin-bottom: 40px;
+    }
+
+    .scrinshots-block__item, .comment {
+        width: 100%;
+    }
+
+    .box_positionBlock {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .plusProduct-block__item {
+        width: 100%;
+    }
+
+    .box_positionBlock {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tarif {
+        margin-bottom: 20px;
+    }
 }
