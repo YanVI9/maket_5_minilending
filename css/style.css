@@ -269,5 +269,78 @@ body {
     font-size: 18px;
 }
 
+/* contakts-box */
 
+.contakts-box {
+    display: flex;
+    justify-content: center;
+}
 
+.address, .form {
+    margin: 0 23px;
+}
+
+.form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form__input {
+    line-height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #445162;
+    padding: 0 11px;
+    margin-bottom: 21px;
+}
+
+.form__message {
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #445162;
+    padding: 11px 11px;
+    margin-bottom: 21px;
+}
+
+.form__button {
+    line-height: 40px;
+    width: 140px;
+    align-self: center;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    color: #445162;
+    font-size: 18px;
+}
+
+.address {
+
+}
+
+.address__text {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0 0 20px 0;
+}
+
+.address__icon {
+    margin-right: 6px;
+}
+
+.social__icon_color-dark {
+    color: #445162;
+}
+
+/* footer */
+
+.footer__text  {
+    font-size: 12px;
+    text-align: center;
+    color: #445162;
+}
