@@ -455,7 +455,8 @@ body {
     }
 
     .text-block__header {
-        line-height: 50px;
+        margin: 10px 0;
+        text-align: center;
     }
 
     .form {
