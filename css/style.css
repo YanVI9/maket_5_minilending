@@ -93,10 +93,12 @@ body {
 .block-about__secondPart {
     margin-left: 100px;
     display: flex;
+    flex-shrink: 0;
 }
 
 .block-about__imgBox {
     flex-basis: 430px;
+    
 }
 
 .block-about__image {
