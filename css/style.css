@@ -84,6 +84,26 @@ body {
     height: auto;
 }
 
+/* block-about */
+
+.block-about {
+    display: flex;
+}
+
+.block-about__secondPart {
+    margin-left: 100px;
+    display: flex;
+}
+
+.block-about__imgBox {
+    flex-basis: 430px;
+}
+
+.block-about__image {
+    width: 100%;
+    height: auto;
+}
+
 .prop-list {
     list-style-type: none;
     padding: 0;
@@ -385,6 +405,15 @@ body {
 
     .box_positionBlock {
         align-items: flex-start;
+    }
+
+    .block-about {
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .block-about__secondPart {
+        margin: 0;
     }
 }
 
