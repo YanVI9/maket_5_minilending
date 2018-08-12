@@ -69,11 +69,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.block-header__secondPart {
+    display: flex;
+}
+
 .block-header__link {
     display: block;
-    width: 469px;
-    height: 214px;
     background-color: white;
+}
+
+.block-header__image {
+    width: 100%;
+    height: auto;
 }
 
 .prop-list {
